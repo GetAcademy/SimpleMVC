@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="moreRed()">Mer rødt</button>
+    <script>
+        let red = 0;
+        updateView();
+        function updateView() {
+            document.body.style.backgroundColor = `rgb(${red},127,127)`;
+        }
+        function moreRed() {
+            red += 10;
+            updateView();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+View -> Controller: moreRed()
+Controller -> View: lese ut body sin bakgrunnsfarge
+Controller -> Controller: trekke ut rød-verdi, øke, lage ny farge
+Controller -> View: endre body sin bakgrunnsfarge
