@@ -23,7 +23,7 @@ function moreRed(){
 }
 ```
 
-Det som skjer her er at funksjonen må gjennom tre steg: 
+Det som skjer her er at funksjonen må gjennom fem steg: 
 1. Lese ut nåværende bakgrunnsfarge
 2. Hente ut rød-verdien fra denne
 3. Øke rød-verdien
@@ -123,3 +123,12 @@ function moreRed() {
 }
 ```
 
+Som en første oppsummering, kan vi se på de fem stegene fra forrige versjon - og hvordan dette blir nå: 
+
+| Steg i forrige versjon | Kommentar nå | 
+| ---------------------- | ------------ |
+| 1. Lese ut nåværende bakgrunnsfarge | Ikke nødvendig lenger | 
+| 2. Hente ut rød-verdien fra denne | Ikke nødvendig lenger | 
+| 3. Øke rød-verdien | Som i forrige versjon |
+| 4. Sette sammen til ny rgb-verdi | Ja, men dette er en del av oppdateringen av viewet |
+| 5. Sette denne som ny bakgrunnsfarge på `body`-elementet | Ja, men dette er en del av oppdateringen av viewet |
